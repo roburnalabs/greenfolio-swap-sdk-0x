@@ -97,5 +97,21 @@ export const WETH = {
     'WMATIC',
     'Wrapped Matic',
     'https://polygon.technology/'
-  )
+  ),
+  [ChainId.ROBURNA]: new Token(
+    ChainId.ROBURNA,
+    '0x86D1D92E543220Bd2F91Ec01694100043a25675A',
+    18,
+    'WRBA',
+    'Wrapped Roburna',
+    'https://roburna.com/'
+  ),
+  [ChainId.ROBURNA_TESTNET]: new Token(
+    ChainId.ROBURNA_TESTNET,
+    '0x38aed14869Df0B10abCE55b6de03Ae168b5c1eeF',
+    18,
+    'WRBA',
+    'Wrapped Roburna',
+    'https://roburna.com/'
+  ),
 }
